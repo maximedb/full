@@ -12,7 +12,7 @@ pip install full
 
 ## Turn evaluation
 
-```
+```python
 from full import FULL
 eval_model = FULL()
 conversation = ["Hi", "What's your name"]
@@ -23,7 +23,7 @@ print(evaluation)
 
 ## Conversation evaluation
 
-```
+```python
 from full import FULL
 eval_model = FULL()
 conversation = ["Hi", "What's your name", "None of your business"]
