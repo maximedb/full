@@ -10,6 +10,11 @@ Unsupervised evaluation of open-domain conversations using follow-ups likelihood
 pip install full
 ```
 
+## Example
+We provide an example script using FULL which reproduces the results of the paper.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/maximedb/full/blob/master/examples/results_reproduction.ipynb)
+
 ## Turn evaluation
 
 ```python
