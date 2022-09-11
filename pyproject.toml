@@ -10,7 +10,7 @@ requires-python = ">=3.7"
 license = "MIT"
 keywords = []
 authors = [
-  { name = "maximedb", email = "maximedebruyn@gmail.com" },
+  { name = "maximedb", email = "maxime.debruyn@uantwerpen.be" },
 ]
 classifiers = [
   "Development Status :: 4 - Beta",
@@ -30,9 +30,9 @@ dependencies = [
 dynamic = ["version"]
 
 [project.urls]
-Documentation = "https://github.com/unknown/full#readme"
-Issues = "https://github.com/unknown/full/issues"
-Source = "https://github.com/unknown/full"
+Documentation = "https://github.com/maximedb/full"
+Issues = "https://github.com/maximedb/full"
+Source = "https://github.com/maximedb/full"
 
 [tool.hatch.version]
 path = "full/__about__.py"
