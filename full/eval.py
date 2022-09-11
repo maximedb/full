@@ -39,12 +39,15 @@ class FULL:
         with self.tokenizer.as_target_tokenizer():
             decoder_inputs =  self.tokenizer(decoder_inputs, truncation=True, return_tensors="pt")
         inputs["labels"] = decoder_inputs["input_ids"]
+        encoder_outputs = None
         with torch.no_grad():
             outputs = self.model(
                 input_ids=inputs["input_ids"].to(self.device),
                 labels=inputs["labels"].to(self.device),
+                encoder_outputs=encoder_outputs,
                 return_dict=True
             )
+            encoder_outputs = outputs.encoder_last_hidden_state
         return torch.exp(outputs["loss"]).item()
 
     def evaluate_turn(self, conversation: List[str], response: str):
