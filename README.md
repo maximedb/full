@@ -36,6 +36,22 @@ evaluation = eval_model.evaluate_turn(convesation)
 print(evaluation)
 ```
 
+## Paper
+[Open-Domain Dialog Evaluation using Follow-Ups Likelihood](https://arxiv.org/abs/2209.05185)
+
+## Citation
+```
+@article{full-mdebruyn,
+  doi = {10.48550/ARXIV.2209.05185},
+  url = {https://arxiv.org/abs/2209.05185},
+  author = {De Bruyn, Maxime and Lotfi, Ehsan and Buhmann, Jeska and Daelemans, Walter},  
+  title = {Open-Domain Dialog Evaluation using Follow-Ups Likelihood},
+  publisher = {arXiv},
+  year = {2022},
+  url={https://arxiv.org/abs/2209.05185}
+}
+```
+
 ## License
 
 `full` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
