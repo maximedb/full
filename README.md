@@ -37,17 +37,24 @@ print(evaluation)
 ```
 
 ## Paper
-[Open-Domain Dialog Evaluation using Follow-Ups Likelihood](https://arxiv.org/abs/2209.05185)
+[Open-Domain Dialog Evaluation using Follow-Ups Likelihood](https://aclanthology.org/2022.coling-1.40/)
 
 ## Citation
 ```
-@article{full-mdebruyn,
-  doi = {10.48550/ARXIV.2209.05185},
-  url = {https://arxiv.org/abs/2209.05185},
-  author = {De Bruyn, Maxime and Lotfi, Ehsan and Buhmann, Jeska and Daelemans, Walter},  
-  title = {Open-Domain Dialog Evaluation using Follow-Ups Likelihood},
-  publisher = {arXiv},
-  year = {2022}
+@inproceedings{de-bruyn-etal-2022-open,
+    title = "Open-Domain Dialog Evaluation Using Follow-Ups Likelihood",
+    author = "De Bruyn, Maxime  and
+      Lotfi, Ehsan  and
+      Buhmann, Jeska  and
+      Daelemans, Walter",
+    booktitle = "Proceedings of the 29th International Conference on Computational Linguistics",
+    month = oct,
+    year = "2022",
+    address = "Gyeongju, Republic of Korea",
+    publisher = "International Committee on Computational Linguistics",
+    url = "https://aclanthology.org/2022.coling-1.40",
+    pages = "496--504",
+    abstract = "Automatic evaluation of open-domain dialogs remains an unsolved problem. Existing methods do not correlate strongly with human annotations. In this paper, we present a new automated evaluation method based on the use of follow-ups. We measure the probability that a language model will continue the conversation with a fixed set of follow-ups (e.g. not really relevant here, what are you trying to say?). When compared against twelve existing methods, our new evaluation achieves the highest correlation with human evaluations.",
 }
 ```
 
